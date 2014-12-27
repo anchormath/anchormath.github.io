@@ -1,72 +1,57 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
+    <meta name="description" content="Work-life jam : Digital retail, reactive applications, emerging software architectures">
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Work-life jam by anchormath</title>
+    <title>Work-life jam</title>
   </head>
 
   <body>
-    <a id="forkme_banner" href="https://github.com/anchormath">View on GitHub</a>
-    <div class="shell">
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Work-life jam</h1>
-            <h2>Digital retail, reactive applications, emerging software architectures</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/anchormath">View on GitHub</a>
 
-      <div id="no-downloads">
-        <span class="inner">
-        </span>
-      </div>
+          <h1 id="project_title">Work-life jam</h1>
+          <h2 id="project_tagline">Digital retail, reactive applications, emerging software architectures</h2>
 
+        </header>
+    </div>
 
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h2>
 <a id="product-information-management-pim" class="anchor" href="#product-information-management-pim" aria-hidden="true"><span class="octicon octicon-link"></span></a>Product Information Management (PIM)</h2>
 
-<p>PIM solutions aim to create a single view of a product across a (retailer's) enterprise - the idea of Master Data Management (MDM) applied to the Product Information domain.</p>
+<p>PIM solutions aim to create a single view of a product across the (retailer's) enterprise - the idea of Master Data Management (MDM) applied to the Product Information domain.</p>
 
-<p>Typically, a PIM system would assist with aggregation and standardization of product data from heterogeneous sources, classifying and relating products and cross-channel distribution of this information.</p>
+<p>Typically, a PIM system would assist with aggregation and standardization of product data from heterogeneous sources, classifying/relating products and cross-channel distribution of this information.</p>
+
+<p>A minimal PIM could be built with 
+<ul>
+  <li> A message bus for enterprise and third-party integrations </li>
+  <li> A graph database for product data </li>
+  <li> A workflow engine that manages validation rules </li>
+  <li> A rich UI </li>
+</ul>
       </section>
+    </div>
 
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>Projects by <a href="https://github.com/anchormath">anchormath</a> can be found on <a href="https://github.com/anchormath">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
-
     </div>
 
     
+
   </body>
 </html>
